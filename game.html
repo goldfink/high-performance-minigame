@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>very fast real-time minigame</title>
+<style>
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+
+</style>
+</head>
+<body>
+<canvas id="game" width="100%" height="100%" style="border:1px solid lightgrey;"></canvas>
+
+<script src="js/page-visibility.js"></script>
+<script src="js/helpers.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js" integrity="sha512-vGcPDqyonHb0c11UofnOKdSAt5zYRpKI4ow+v6hat4i96b7nHSn8PQyk0sT5L9RECyksp+SztCPP6bqeeGaRKg==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/GameWorld.js"></script>
+<script type="text/javascript" src="js/GameObject.js"></script>
+<script type="text/javascript" src="js/Avatar.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
