@@ -39,14 +39,16 @@ document.addEventListener("keydown", function(event) {
 	action = "pause";
     }
     transmit("keypress", action);
-    window.localStorage.setItem("position", JSON.stringify({x:user.avatar.x, y:user.avatar.y}));
+    window.localStorage.setItem("position",
+	JSON.stringify({x:user.avatar.x, y:user.avatar.y}));
 });
 
 socket.on("user_auth", function(newuser) {
     if (!players[newuser.name]) {
 	console.log("welcoming new user");
 	players[newuser.name] = newuser;
-	var avatar = new Avatar(window.gameWorld.context, 0, 100, 0, 100, 1, newuser.name);
+	var avatar = new Avatar(window.gameWorld.context, 0, 100, 0, 100, 1,
+	    newuser.name);
 	avatar.x = newuser.avatar.x; 
 	avatar.y = newuser.avatar.y;
 	players[newuser.name].avatar = avatar;
@@ -60,13 +62,13 @@ socket.on("user_action", function(newuser, action) {
     if (players[newuser]) {
 	console.log("user " + newuser + " did: ", action);
 	if (action == "up") {
-	    players[newuser].y -= config.avatar_step_size;
+	    players[newuser].avatar.y -= config.avatar_step_size;
 	} else if (action == "down") {
-	    players[newuser].y += config.avatar_step_size;
+	    players[newuser].avatar.y += config.avatar_step_size;
 	} else if (action == "left") {
-	    players[newuser].x -= config.avatar_step_size;
+	    players[newuser].avatar.x -= config.avatar_step_size;
 	} else if (action == "right") {
-	    players[newuser].x += config.avatar_step_size;
+	    players[newuser].avatar.x += config.avatar_step_size;
 	}
     } else {
 	console.log("action by unknown user");
