@@ -1,2 +1,4 @@
-forever start gameserver.js
-open "http://localhost:3000/game.html"
+killall forever
+killall nodemon
+killall node
+forever start -l forever.log -o stdout.log -e error.log -c nodemon gameserver.js

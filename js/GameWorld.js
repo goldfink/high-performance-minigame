@@ -21,7 +21,8 @@ class GameWorld {
 
     createWorld() {
         this.gameObjects = [
-            //new Avatar(this.context, 250, 50, 0, 50, 1),
+            new Tree(this.context, 70, 0, 0, 50, 300),
+            new Tree(this.context, 60, 300, 0, 50, 300),
             //new Avatar(this.context, 0, 50, 0, 50, 1),
             //new Avatar(this.context, 250, 300, 0, -50, 200),
         ];
@@ -31,15 +32,15 @@ class GameWorld {
 
 
         // Calculate how much time has passed
-        var secondsPassed = (timeStamp - this.oldTimeStamp) / 1000;
+        var secondsPassed = (timeStamp - this.oldTimeStamp) / 5000;
         this.oldTimeStamp = timeStamp;
 
         // Loop over all game objects to update
-        //for (var i = 0; i < this.gameObjects.length; i++) {
-        //    this.gameObjects[i].update(secondsPassed);
-        //}
+        for (var i = 0; i < this.gameObjects.length; i++) {
+           // this.gameObjects[i].update(secondsPassed);
+        }
 
-        this.detectionCollisions(this.gameObjects);
+        this.detectionCollisions();
 
         this.clearCanvas();
 
@@ -53,21 +54,21 @@ class GameWorld {
         window.requestAnimationFrame((timeStamp) => this.gameLoop(timeStamp));
     }
 
-    detectionCollisions(gameObjectsX) {
+    detectionCollisions() {
     
         var obj1;
         var obj2;
 
-        for (var i = 0; i < gameObjectsX.length; i++) {
-            gameObjectsX[i].isColliding = false;
+        for (var i = 0; i < this.gameObjects.length; i++) {
+            this.gameObjects[i].isColliding = false;
         }
 
-        for (var i = 0; i < gameObjectsX.length; i++)
+        for (var i = 0; i < this.gameObjects.length; i++)
         {
-            obj1 = gameObjectsX[i];
-            for (var j = i + 1; j < gameObjectsX.length; j++)
+            obj1 = this.gameObjects[i];
+            for (var j = i + 1; j < this.gameObjects.length; j++)
             {
-                obj2 = gameObjectsX[j];
+                obj2 = this.gameObjects[j];
 
                 if (this.rectIntersect(obj1.x, obj1.y, obj1.width, obj1.height, obj2.x, obj2.y, obj2.width, obj2.height)) {
                     obj1.isColliding = true;
@@ -76,11 +77,15 @@ class GameWorld {
                     var vCollision = {x: obj2.x - obj1.x, y: obj2.y - obj1.y};
                     var distance = Math.sqrt((obj2.x-obj1.x)*(obj2.x-obj1.x) + (obj2.y-obj1.y)*(obj2.y-obj1.y));
                     var vCollisionNorm = {x: vCollision.x / distance, y: vCollision.y / distance};
+                    obj1.collision_point = vCollision;
+                    obj2.collision_point = vCollision;
+
                     var vRelativeVelocity = {x: obj1.vx - obj2.vx, y: obj1.vy - obj2.vy};
                     var speed = vRelativeVelocity.x * vCollisionNorm.x + vRelativeVelocity.y * vCollisionNorm.y;
 
+		    
                     if (speed < 0) {
-                        break;
+			break;
                     }
 
                     var impulse = 2 * speed / (obj1.mass + obj2.mass);
@@ -91,17 +96,21 @@ class GameWorld {
                 }
             }
         }
-	return gameObjectsX;
     };
 
 
     rectIntersect(x1, y1, w1, h1, x2, y2, w2, h2) {
+	let intersect = false;
         // Check x and y for overlap
-        if (x2 > w1 + x1 || x1 > w2 + x2 || y2 > h1 + y1 || y1 > h2 + y2){
-            return false;
-        }
-
-        return true;
+        if (x2 > w1 + x1) {
+	} else if (x1 > w2 + x2) {
+	} else if (y2 > h1 + y1) {
+	} else if (y1 > h2 + y2) {
+        } else {
+    	    console.log(x1, y1, w1, h1, x2, y2, w2, h2);
+	    intersect = true;
+	}
+    	return intersect;
     }
 
     clearCanvas() {
