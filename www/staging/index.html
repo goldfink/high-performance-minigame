@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<title>sandra - very fast real-time minigame</title>
+<style>
+body, html { 
+    overflow-x: hidden; 
+    font-family: Arial;
+    overflow-y: hidden;
+}
+</style>
+</head>
+<body>
+<canvas id="game" width="100%" height="300" style="border:1px solid lightgrey;"></canvas>
+<footer>
+<div style="float: left">
+<h3 style="margin: 5px">sandra - high performance multiplayer game</h3>
+<span>dein name: <input type="text" id="user_input" style="border: 0; opacity: 0.7" placeholder="hedda"></span><button onclick="socket.emit('user_name_change', user_input.value);user.name=user_input.value;user.avatar.name=user.input_value">neuer name</button>
+</div>
+<div id="user_details" style="float: right">
+<br>
+<span>dein avatar</span><img src="avatars/av1.png" width="30" height="30"><img src="avatars/av2.png" width="30" height="30"><img src="avatars/av3.png" width="30" height="30"><img src="avatars/av4.png" width="30" height="30"><img src="avatars/av5.png" width="30" height="30"><img src="avatars/av6.png" width="30" height="30"><img src="avatars/av7.png" width="30" height="30"><img src="avatars/av8.png" width="30" height="30"><img src="avatars/av9.png" width="30" height="30">
+</div>
+</footer>
+<ul id="log" style="opacity: 0.5; position: fixed; bottom: 50; left: 10; overflow-y: scroll; height: 200px">
+</ul>
+
+<script src="js/page-visibility.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/helpers.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.1/socket.io.js" integrity="sha512-vGcPDqyonHb0c11UofnOKdSAt5zYRpKI4ow+v6hat4i96b7nHSn8PQyk0sT5L9RECyksp+SztCPP6bqeeGaRKg==" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/GameWorld.js"></script>
+<script type="text/javascript" src="js/GameObject.js"></script>
+<script type="text/javascript" src="js/Avatar.js"></script>
+<script type="text/javascript" src="js/Tree.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>

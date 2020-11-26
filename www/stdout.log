@@ -1,0 +1,972 @@
+[33m[nodemon] 2.0.6[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node /var/www/gameserver.js`[39m
+listening on *:4004
+user id: 42fe1c7be1dd9
+user name heedah
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379797058,
+  position: { x: 0, y: 0 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 20,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} } } 'keypress: down'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379797058,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 20,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: right'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379798058,
+  position: { x: 20, y: 20 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 20,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: down'
+user id: 42fe1c7be1dd9
+{ unauthorized: false } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined } 'keypress: right'
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+42fe1c7be1dd9 visibility_change: true
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+{ id: '05c825d6f5d8e8',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1,
+  position: { x: 0, y: 0 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} } } 'keypress: down'
+{ id: '05c825d6f5d8e8',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379852857,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: down'
+{ id: '05c825d6f5d8e8',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379852857,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: right'
+{ id: '05c825d6f5d8e8',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379852857,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: down'
+{ id: '05c825d6f5d8e8',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379853857,
+  position: { x: 20, y: 40 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: down'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379853972,
+  position: { x: 0, y: 0 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} } } 'keypress: down'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379853972,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: right'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379854973,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: right'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379854973,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: right'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379854973,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: right'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379854973,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'right' } 'keypress: down'
+{ id: '42fe1c7be1dd9',
+  name: 'heedah',
+  avatar_id: '1',
+  connection_state: 1,
+  last_timestamp: 1606379854973,
+  position: undefined,
+  avatar:
+   { context: {},
+     x: 0,
+     y: 0,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '1',
+     img: {},
+     kiss: {} },
+  last_keypress: 'down' } 'keypress: up'
+42fe1c7be1dd9 visibility_change: true
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+05c825d6f5d8e8 visibility_change: true
+user id: 726d7712aa542
+42fe1c7be1dd9 visibility_change: true
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380065311,
+  position: { x: 80, y: 80 } } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380067340,
+  position: { x: 80, y: 80 },
+  last_keypress: 'right' } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380068366,
+  position: { x: 100, y: 80 },
+  last_keypress: 'right' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380068366,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380070377,
+  position: { x: 100, y: 100 },
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380071311,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+42fe1c7be1dd9 visibility_change: true
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380338655,
+  position: { x: 60, y: 100 } } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380339655,
+  position: undefined,
+  last_keypress: 'right' } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380340654,
+  position: { x: 80, y: 100 },
+  last_keypress: 'right' } 'keypress: down'
+user id: e3712bf6ebbd88
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e3712bf6ebbd88
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380569414 } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380569414,
+  last_keypress: 'up',
+  position: undefined } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380569414,
+  last_keypress: 'right',
+  position: undefined } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380569414,
+  last_keypress: 'right',
+  position: undefined } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606380570415,
+  last_keypress: 'right',
+  position: undefined } 'keypress: right'
+user id: 05c825d6f5d8e8
+05c825d6f5d8e8 visibility_change: false
+user id: 726d7712aa542
+user id: 05c825d6f5d8e8
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 726d7712aa542
+user id: 726d7712aa542
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606381766675,
+  position: { x: 80, y: 120 } } 'keypress: down'
+42fe1c7be1dd9 visibility_change: true
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606381987222,
+  position: { x: 0, y: 0 } } 'keypress: right'
+42fe1c7be1dd9 visibility_change: true
+user id: eece70ca5e1b2
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 3dafa1936936a
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: eece70ca5e1b2
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: { x: 360, y: 0 } } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383202618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383203617,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: { x: 180, y: 320 },
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: left'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'left' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383204618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: up'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383205618,
+  position: undefined,
+  last_keypress: 'up' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383205618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383205618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383205618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383206618,
+  position: { x: 0, y: 280 },
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383206618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383206618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: down'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383207618,
+  position: undefined,
+  last_keypress: 'down' } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383207618,
+  position: undefined,
+  last_keypress: 'right' } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383208618,
+  position: { x: 40, y: 340 },
+  last_keypress: 'right' } 'keypress: right'
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383208618,
+  position: undefined,
+  last_keypress: 'right' } 'keypress: right'
+user id: 3dafa1936936a
+3dafa1936936a visibility_change: true
+3dafa1936936a visibility_change: true
+{ unauthorized: false,
+  connection_state: 1,
+  last_timestamp: 1606383220618,
+  position: { x: 60, y: 340 },
+  last_keypress: 'right' } 'keypress: right'
+eece70ca5e1b2 visibility_change: true
+eece70ca5e1b2 visibility_change: true
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user id: e7794dab4d467
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+{ id: 'e7794dab4d467',
+  name: 'heedah',
+  avatar_id: '0',
+  connection_state: 1,
+  last_timestamp: 1,
+  position: { x: 0, y: 0 },
+  avatar:
+   { context: {},
+     x: 0,
+     y: 20,
+     vx: 0,
+     vy: 50,
+     collision_point: { x: 0, v: 0 },
+     mass: 0,
+     isColliding: false,
+     width: 50,
+     height: 50,
+     name: 'heedah',
+     avatar_id: '0',
+     img: {},
+     kiss: {} } } 'keypress: down'
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+user id: 42fe1c7be1dd9
+user id: 9d59ee3ab68178
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: 42fe1c7be1dd9
+{ unauthorized: false } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+{ unauthorized: false,
+  last_keypress: 'right',
+  position: undefined,
+  connection_state: 1,
+  last_timestamp: 1606391833686 } 'keypress: right'
+user id: 42fe1c7be1dd9
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+user id: e7794dab4d467
+e7794dab4d467 visibility_change: false
+user id: e7794dab4d467
+user name heedah
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+announcing user: [object Object]
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node /var/www/gameserver.js`[39m
+listening on *:4004
